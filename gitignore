@@ -1,0 +1,48 @@
+Last login: Mon Apr 12 10:22:02 on ttys000
+machinegun@Ismatullas-Air ~ % git --version
+git version 2.24.3 (Apple Git-128)
+machinegun@Ismatullas-Air ~ % git --version
+git version 2.24.3 (Apple Git-128)
+machinegun@Ismatullas-Air ~ % cd Developer
+machinegun@Ismatullas-Air Developer % ls
+HelloWOrld	Memorize	iOS.firstAPP
+HelloWorld2	Witch Simulator	renttool
+machinegun@Ismatullas-Air Developer % cd Witch Simulator
+cd: string not in pwd: Witch
+machinegun@Ismatullas-Air Developer % git init
+Initialized empty Git repository in /Users/machinegun/Developer/.git/
+machinegun@Ismatullas-Air Developer % vi .gitignore
+
+
+
+
+
+
+
+
+
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
